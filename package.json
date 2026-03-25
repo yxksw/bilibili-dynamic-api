@@ -1,0 +1,23 @@
+{
+  "name": "bilibili-dynamic-api",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker API for fetching Bilibili dynamic data in JSON format",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "keywords": [
+    "bilibili",
+    "dynamic",
+    "api",
+    "cloudflare-worker",
+    "json"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
